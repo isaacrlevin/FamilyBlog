@@ -1,4 +1,14 @@
- {
- "tool": "require-dotnetcoresdk",
- "additionalOptions": "-Channel master"
- }
+{
+  "run": [
+    {
+      "tool": "require-vscomponent"
+    },
+    {
+      "tool": "require-nodejs"
+    },
+    {
+      "tool": "require-dotnetcoresdk",
+      "additionalOptions": "-Channel master"
+    }
+  ]
+} 
