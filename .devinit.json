@@ -1,0 +1,4 @@
+ {
+ "tool": "require-dotnetcoresdk",
+ "additionalOptions": "-Channel master"
+ }
